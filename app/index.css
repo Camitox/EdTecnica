@@ -144,17 +144,17 @@ body, h1, h2 {
     padding: 0.5rem;
 }
 #body-list{
-  width: 60%;
+  width: 74%;
   margin: 0;
 }
 #btn-del-list{
-    width: 20%;
+    width: 13%;
     height: 2.5rem;
     background-color: transparent;
     color: white;
 }
 #btn-check{
-  width: 20%;
+  width: 13%;
   height: 2.5rem;
   background-color: transparent;
   color: white;
@@ -168,10 +168,10 @@ body, h1, h2 {
       display: flex;
   }
   #btn-del-list{
-    width: 8%;
+    width: 7%;
   }
   #btn-check{
-    width: 8%;
+    width: 7%;
   }
 }
 @media (min-width: 1024px) {
@@ -179,9 +179,9 @@ body, h1, h2 {
       width: 50%;
   }
   #btn-del-list{
-    width: 4.5%;
+    width: 5.5%;
   }
   #btn-check{
-    width: 4.5%;
+    width: 5.5%;
   }
 }
