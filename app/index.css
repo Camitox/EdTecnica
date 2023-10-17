@@ -127,6 +127,9 @@ body, h1, h2 {
   background-color: transparent;
   color: white;
 }
+#btn-add:hover{
+  color: greenyellow;
+}
 #cont-list{
     border: 1rem black ;
     border-color: black;
@@ -157,11 +160,17 @@ body, h1, h2 {
     background-color: transparent;
     color: white;
 }
+#btn-del-list:hover{
+  color: red;
+}
 #btn-check{
   width: 10%;
   height: 2.5rem;
   background-color: transparent;
   color: white;
+}
+#btn-check:hover{
+  color: greenyellow;
 }
 
 @media (min-width: 768px) {
