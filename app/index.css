@@ -140,7 +140,7 @@ body, h1, h2 {
     word-break: break-all;
     overflow-y: scroll;
 }
-#list{
+.list{
     display: flex;
     border-bottom-width: 2px;
     border-color: #1a1d31;
@@ -150,26 +150,26 @@ body, h1, h2 {
     text-align: justify;
     max-height: calc(70vh - 2rem);
 }
-#body-list{
+.body-list{
   width: 74%;
   margin: 0;
 }
-#btn-del-list{
+.btn-del-list{
     width: 10%;
     height: 2.5rem;
     background-color: transparent;
     color: white;
 }
-#btn-del-list:hover{
+.btn-del-list:hover{
   color: red;
 }
-#btn-check{
+.btn-check{
   width: 10%;
   height: 2.5rem;
   background-color: transparent;
   color: white;
 }
-#btn-check:hover{
+.btn-check:hover{
   color: greenyellow;
 }
 
@@ -180,10 +180,10 @@ body, h1, h2 {
   #nav-link-container {
       display: flex;
   }
-  #btn-del-list{
+  .btn-del-list{
     width: 7%;
   }
-  #btn-check{
+  .btn-check{
     width: 7%;
   }
 }
@@ -191,13 +191,13 @@ body, h1, h2 {
   #main-desc-container{
       width: 50%;
   }
-  #btn-del-list{
+  .btn-del-list{
     width: 3.5%;
   }
-  #btn-check{
+  .btn-check{
     width: 3.5%;
   }
-  #body-list{
+  .body-list{
     width: 93%;
   }
 }
