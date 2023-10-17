@@ -142,19 +142,20 @@ body, h1, h2 {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
+    text-align: justify;
 }
 #body-list{
   width: 74%;
   margin: 0;
 }
 #btn-del-list{
-    width: 13%;
+    width: 10%;
     height: 2.5rem;
     background-color: transparent;
     color: white;
 }
 #btn-check{
-  width: 13%;
+  width: 10%;
   height: 2.5rem;
   background-color: transparent;
   color: white;
@@ -179,9 +180,12 @@ body, h1, h2 {
       width: 50%;
   }
   #btn-del-list{
-    width: 5.5%;
+    width: 3.5%;
   }
   #btn-check{
-    width: 5.5%;
+    width: 3.5%;
+  }
+  #body-list{
+    width: 93%;
   }
 }
